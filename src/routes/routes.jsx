@@ -13,7 +13,7 @@ export const route = [
     {
 
         path: "/",
-        component: <Home />,
+        component: <div data-scroll-section><Home /></div>,
         id: 0
     },
     {
