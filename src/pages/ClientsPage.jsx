@@ -1,15 +1,27 @@
 import React from 'react';
+import img1 from "../assets/clients/clients.png";
+import img2 from "../assets/clients/clients2.jpg";
+import img3 from "../assets/clients/clients3.png";
+import img4 from "../assets/clients/clients4.png";
+import img5 from "../assets/clients/clients5.jpg";
+import img6 from "../assets/clients/clients6.jpg";
+import img7 from "../assets/clients/clients7.jpg";
+import img8 from "../assets/clients/clients8.jpg";
+import img9 from "../assets/clients/clients9.jpg";
+import img10 from "../assets/clients/clients10.jpg";
 
 const ClientsPage = () => {
     const clients = [
-        { img: 'https://www.iplatformmedia.com/img/clients/embassy.png', alt: 'Client 1', title: 'Client 1', delay: "0.1s", },
-        { img: 'https://www.iplatformmedia.com/img/clients/allen.png', alt: 'Client 2', title: 'Client 2', delay: "0.3s", },
-        { img: 'https://www.iplatformmedia.com/img/clientlogos/2.jpg', alt: 'Client 3', title: 'Client 3', delay: "0.5s", },
-        { img: 'https://www.iplatformmedia.com/img/clients/pnrao.png', alt: 'Client 4', title: 'Client 4', delay: "0.7s", },
-        { img: 'https://www.iplatformmedia.com/img/clients/embassy.png', alt: 'Client 1', title: 'Client 1', delay: "0.9s", },
-        { img: 'https://www.iplatformmedia.com/img/clients/allen.png', alt: 'Client 2', title: 'Client 2', delay: "0.11s", },
-        { img: 'https://www.iplatformmedia.com/img/clientlogos/2.jpg', alt: 'Client 3', title: 'Client 3', delay: "0.13s", },
-        { img: 'https://www.iplatformmedia.com/img/clients/pnrao.png', alt: 'Client 4', title: 'Client 4', delay: "0.12s", },
+        { img: img1, alt: 'Client 1', title: 'Client 1', delay: "0.1s", },
+        { img: img2, alt: 'Client 2', title: 'Client 2', delay: "0.3s", },
+        { img: img3, alt: 'Client 3', title: 'Client 3', delay: "0.5s", },
+        { img: img4, alt: 'Client 4', title: 'Client 4', delay: "0.7s", },
+        { img: img5, alt: 'Client 1', title: 'Client 1', delay: "0.9s", },
+        { img: img6, alt: 'Client 2', title: 'Client 2', delay: "0.11s", },
+        { img: img7, alt: 'Client 3', title: 'Client 3', delay: "0.13s", },
+        { img: img8, alt: 'Client 4', title: 'Client 4', delay: "0.12s", },
+        { img: img9, alt: 'Client 4', title: 'Client 4', delay: "0.12s", },
+        { img: img10, alt: 'Client 4', title: 'Client 4', delay: "0.12s", },
     ];
     return (
         <div className="bg-white">
