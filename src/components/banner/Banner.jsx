@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import img1 from "../../assets/banner/Event-management.png";
 import img2 from "../../assets/banner/Branding_Advertisement.png";
 import img3 from "../../assets//banner/Brand_creative.jpg";
-import img4 from "../../assets/banner/print_management.png";
+import img4 from "../../assets/banner/Print_management.png";
 
 const BannerSlider = () => {
     const settings = {
