@@ -48,11 +48,16 @@
 /* bannerSlider css end here */
 
 /*** service start ***/
+/*** service start ***/
 .service .service-item {
   position: relative;
   height: 100%;
   border-radius: 8px;
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .service-content::after {
@@ -76,15 +81,27 @@
 .service-item .service-content-icon {
   position: relative;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.service-item .service-content-icon span,
-.service-item .service-content-icon p {
+.service-item .service-content-icon span {
+  margin-bottom: 16px; /* Spacing between icon and title */
   transition: 1s;
+}
+
+.service-item .service-content-icon h4 {
+  margin-top: 8px; /* Spacing between title and description */
 }
 
 .service-item:hover .service-content-icon span {
   color: #050709 !important;
+}
+
+.service-item .service-content-icon p {
+  transition: 1s;
 }
 
 .service-item:hover .service-content-icon p {
