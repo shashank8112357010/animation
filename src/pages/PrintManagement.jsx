@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from "../assets/banner/print_management.png";
+import img1 from "../assets/banner/Print_management.png";
 import { CiCirclePlus } from 'react-icons/ci';
 
 const PrintManagement = () => {

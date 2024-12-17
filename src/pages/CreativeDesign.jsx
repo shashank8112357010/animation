@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from "../assets//banner/Brand_creative.jpg";
+import img1 from "../assets/banner/Brand_creative.jpg";
 import { CiCirclePlus } from 'react-icons/ci';
 
 const CreativeDesign = () => {
